@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <!-- Necesidades básicas de la página
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agenda Personal</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body id="top">
+    <!-- Preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Contenedor de la página
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <!-- Cabecera del sitio
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.svg" alt="Página principal">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menú</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Inicio</a></li>
+                        <li><a class="smoothscroll" href="#about">Acerca de</a></li>
+                        <li><a class="smoothscroll" href="#login">Iniciar sesión</a></li>
+                        <li><a class="smoothscroll" href="#register">Registrarse</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contacto</a></li>
+                    </ul>
+                </nav> <!-- end s-header__nav -->
+            </div>
+        </header> <!-- end s-header -->
+
+        <!-- Introducción
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+
+                    <div class="s-intro__content-text">
+                        <div class="s-intro__content-pretitle text-pretitle">Hola</div>
+                        <h1 class="s-intro__content-title">
+                            Bienvenido a tu Agenda Personal<br><br>
+                        </h1>
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">Conoce más</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Contáctanos</a>
+                        </div>
+                    </div>                     
+                </div>
+            </div>
+
+            <ul class="s-intro__social social-list">
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                        <span class="u-screen-reader-text">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                        <span class="u-screen-reader-text">Twitter</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                        Somos Tomás y Antonella, desarrolladores web apasionados por crear experiencias digitales únicas e impactantes. Con habilidades en diseño y desarrollo, transformamos ideas en soluciones innovadoras, combinando funcionalidad y estética para ofrecer resultados excepcionales. Nos especializamos en crear proyectos a medida, utilizando tecnologías modernas y las mejores prácticas del sector. ¡Déjanos ayudarte a hacer realidad tus proyectos en línea!
+                    </p>
+                    
+
+                    <p class="attention-getter">
+                        Creemos en la importancia de entender las necesidades de cada cliente para desarrollar soluciones que realmente marquen la diferencia. 
+                        Nuestra filosofía se basa en el aprendizaje constante, la colaboración y la atención a los detalles, garantizando que cada proyecto refleje nuestros estándares de calidad y compromiso. 
+                        Si buscas transformar tu presencia en línea o darle vida a un proyecto digital, ¡estamos aquí para ayudarte!
+                    </p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Spotify
+                                    <span>Product Designer</span>
+                                </li>
+                                <li>
+                                    Dropbox
+                                    <span>Interface Developer</span>
+                                </li>
+                                <li>
+                                    Google
+                                    <span>Lead UI Designer</span>
+                                </li>
+                                <li>
+                                    Figma
+                                    <span>UI Designer</span>
+                                </li>
+                                <li>
+                                    Microsoft
+                                    <span>UI Designer</span>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Awards</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Site Of The Month
+                                        <span>Awwwards — 2023</span>
+                                    </a>                                        
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Site Of The Day
+                                        <span>Awwwards — 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Agency of The Year
+                                        <span>Awwwards — 2022</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        FWA of The Month
+                                        <span>FWA — 2022</span>
+                                    </a>
+                                </li><li>
+                                    <a href="#0">
+                                        Site Of The Month
+                                        <span>Awwwards — 2022</span>
+                                    </a>                                        
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    Product Design
+                                </li>
+                                <li>
+                                    UI/UX Design
+                                </li>
+                                <li>
+                                    Prototyping
+                                </li>
+                                <li>
+                                    Frontend Development
+                                </li>
+                                <li>
+                                    Illustration
+                                </li>
+                                <li>
+                                    Visual Design
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+
+
+      <!-- # agenda personal
+================================================== -->
+<section id="agenda" class="s-agenda target-section">
+
+    <div class="row">
+        <div class="column xl-12">
+            <div class="section-header" data-num="02">
+                <h2 class="text-display-title">Mis Tareas.</h2>
+            </div> <!-- end section-header -->
+        </div>
+    </div>
+
+    <div class="row folio-entries">
+
+        <!-- Evento 1 -->
+        <div class="column entry">
+            <a href="event-details.html" class="entry__link">
+                <div class="entry__thumb">
+                    <img src="images/events/event-1.jpg" alt="Evento 1">
+                </div>
+                <div class="entry__info">
+                    <h4 class="entry__title">Reunión con el equipo</h4>
+                    <div class="entry__cat">Trabajo</div>
+                    <div class="entry__date">12 Diciembre, 2024</div>
+                </div>
+            </a>
+
+            <div class="entry__desc">
+                <p>
+                    Discusión sobre los próximos proyectos y asignación de tareas. Asegúrate de llevar todos los informes pendientes.
+                    <a href="event-details.html">Ver detalles</a>.
+                </p>
+            </div>
+        </div> <!-- end entry -->
+
+        <!-- Evento 2 -->
+        <div class="column entry">
+            <a href="event-details.html" class="entry__link">
+                <div class="entry__thumb">
+                    <img src="images/events/event-2.jpg" alt="Evento 2">
+                </div>
+                <div class="entry__info">
+                    <h4 class="entry__title">Cena de Navidad</h4>
+                    <div class="entry__cat">Personal</div>
+                    <div class="entry__date">24 Diciembre, 2024</div>
+                </div>
+            </a>
+
+            <div class="entry__desc">
+                <p>
+                    Reunión familiar para celebrar las festividades de fin de año. Todos los miembros deben confirmar su asistencia.
+                    <a href="event-details.html">Ver detalles</a>.
+                </p>
+            </div>
+        </div> <!-- end entry -->
+
+        <!-- Evento 3 -->
+        <div class="column entry">
+            <a href="event-details.html" class="entry__link">
+                <div class="entry__thumb">
+                    <img src="images/events/event-3.jpg" alt="Evento 3">
+                </div>
+                <div class="entry__info">
+                    <h4 class="entry__title">Cita médica</h4>
+                    <div class="entry__cat">Salud</div>
+                    <div class="entry__date">15 Diciembre, 2024</div>
+                </div>
+            </a>
+
+            <div class="entry__desc">
+                <p>
+                    Consulta de seguimiento con el médico. No olvidar llevar los resultados de los análisis recientes.
+                    <a href="event-details.html">Ver detalles</a>.
+                </p>
+            </div>
+        </div> <!-- end entry -->
+
+    </div> <!-- folio entries -->
+
+    <div class="row s-testimonials">
+        <div class="column xl-12">
+
+            <h3 class="s-testimonials__header">Lo que dicen de mí</h3>
+
+            <div class="swiper-container s-testimonials__slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="s-testimonials__slide swiper-slide">
+                        <div class="s-testimonials__author">
+                            <img src="images/avatars/user-02.jpg" alt="Avatar" class="s-testimonials__avatar">
+                            <cite class="s-testimonials__cite">
+                                <strong>Ana García</strong>
+                                <span>Compañera de trabajo</span>
+                            </cite>
+                        </div>
+                        <p>
+                            Siempre organizo mis tareas de manera eficiente. ¡Gracias a esta agenda, nunca olvido una cita importante!
+                        </p>
+                    </div> <!-- end s-testimonials__slide -->
+
+                    <div class="s-testimonials__slide swiper-slide">
+                        <div class="s-testimonials__author">
+                            <img src="images/avatars/user-03.jpg" alt="Avatar" class="s-testimonials__avatar">
+                            <cite class="s-testimonials__cite">
+                                <strong>Carlos López</strong>
+                                <span>Amigo cercano</span>
+                            </cite>
+                        </div>
+                        <p>
+                            Excelente herramienta para mantenerme al tanto de mis actividades personales. ¡Totalmente recomendable!
+                        </p>
+                    </div> <!-- end s-testimonials__slide -->
+
+                    <div class="s-testimonials__slide swiper-slide">
+                        <div class="s-testimonials__author">
+                            <img src="images/avatars/user-01.jpg" alt="Avatar" class="s-testimonials__avatar">
+                            <cite class="s-testimonials__cite">
+                                <strong>Elena Martín</strong>
+                                <span>Cliente</span>
+                            </cite>
+                        </div>
+                        <p>
+                            Con esta agenda, puedo gestionar mejor mi tiempo y organizar mis citas médicas, reuniones de trabajo, ¡y mucho más!
+                        </p>
+                    </div> <!-- end s-testimonials__slide -->
+
+                </div> <!-- end swiper-wrapper -->
+
+                <div class="swiper-pagination"></div>
+
+            </div> <!-- end swiper-container -->
+
+        </div> <!-- end column -->
+    </div> <!-- end s-testimonials -->
+
+</section> <!-- end s-agenda -->
+
+
+     <!-- # numbers
+        ================================================== -->
+<section id="numbers" class="s-numbers">
+
+    <div class="row counter-items">
+
+        <div class="column counter-items__item">
+            <div class="num">
+                200
+                <span>+</span>
+            </div>
+            <h5>Citas Agendadas</h5>
+            <p>
+                Más de 200 citas organizadas en tu agenda personal, ayudándote a mantener un control perfecto sobre tu día a día.
+            </p>
+        </div> <!-- end counter-items__item -->
+
+        <div class="column counter-items__item">
+            <div class="num">
+                150
+                <span>+</span>
+            </div>
+            <h5>Tareas Completadas</h5>
+            <p>
+                Organiza y completa más de 150 tareas, mejorando tu productividad y manteniendo tu agenda siempre al día.
+            </p>
+        </div> <!-- end counter-items__item -->
+
+        <div class="column counter-items__item">
+            <div class="num">
+                120
+                <span>+</span>
+            </div>
+            <h5>Recordatorios Activos</h5>
+            <p>
+                Mantén siempre a la vista más de 120 recordatorios para nunca olvidar un detalle importante.
+            </p>
+        </div> <!-- end counter-items__item -->
+
+        <div class="column counter-items__item">
+            <div class="num">
+                95
+                <span>+</span>
+            </div>
+            <h5>Comentarios Positivos</h5>
+            <p>
+                Recibe constantemente comentarios positivos de tus usuarios, lo que refleja la eficiencia y utilidad de tu agenda personal.
+            </p>
+        </div> <!-- end counter-items__item -->
+
+    </div>  <!-- end counter-items -->
+
+</section> <!-- end s-numbers -->
+
+
+    <!-- # footer 
+        ================================================== -->
+<footer id="footer" class="s-footer target-section">
+
+    <div class="row">
+        <div class="column lg-12">
+            <div class="section-header light-on-dark" data-num="03">
+                <h2 class="text-display-title">Conecta conmigo</h2>
+            </div> <!-- end section-header -->
+        </div>
+    </div>
+
+    <div class="row s-footer__content">
+
+        <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+            <p class="attention-getter">
+            Organiza tu tiempo de manera eficiente con nuestra agenda personal. Accede a tus tareas, citas y recordatorios desde cualquier lugar. ¡Tu día nunca estuvo tan organizado!
+            </p>               
+        </div> <!-- end section-footer__about -->
+
+        <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+            <div class="row">
+                <div class="column xl-4 lg-5 md-6 tab-12">
+                    <h5>Sígueme</h5>
+                    <ul class="link-list">
+                        <li><a href="#0">Facebook</a></li>
+                        <li><a href="#0">Twitter</a></li>
+                        <li><a href="#0">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="column xl-6 md-6 tab-12">
+                    <h5>Contáctame</h5>
+                    <ul class="link-list">
+                        <li><a href="mailto:#0">tucorreo@agenda.com</a></li>
+                        <li><a href="tel:+123456789">+1 234 567 890</a></li>
+                    </ul> 
+                </div>
+            </div>                    
+        </div> <!-- end section-footer__site-links -->
+
+    </div> <!-- end section-footer__content -->
+
+
+    <div class="row s-footer__buttons">
+       
+        <div class="column xl-6 tab-12">
+            <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Envíame un mensaje</a>
+        </div>
+  
+        <div class="column xl-6 tab-12">                    
+            <a href="#0" class="btn btn--stroke btn--large u-fullwidth">Ver mi perfil</a>
+        </div>
+    
+    </div> <!-- end section-footer__buttons -->              
+    
+    <div class="row s-footer__bottom">
+        
+        <div class="column xl-6 lg-12">
+            <ul class="s-footer__social social-list">
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                        <span class="u-screen-reader-text">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                        <span class="u-screen-reader-text">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71c0.015,0.748,0.156,1.487,0.42,2.187 c0.468,1.209,1.423,2.165,2.632,2.632c0.699,0.263,1.438,0.404,2.186,0.42c0.963,0.043,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055 c0.748-0.015,1.487-0.156,2.186-0.42c1.209-0.468,2.165-1.423,2.632-2.632c0.263-0.7,0.404-1.438,0.419-2.187c0.043-0.963,0.056-1.268,0.056-3.71 C20.589,7.449,20.576,6.974,20.533,6.111z M17.957,15.421c-0.708,0.27-1.467,0.404-2.219,0.404c-1.276,0-2.515-0.327-3.608-0.91 c-0.45,0.858-1.17,1.577-2.093,2.083c1.151,0.881,2.552,1.442,4.014,1.594c1.402,0.097,2.788-0.253,3.897-1.003c1.17-0.814,2.026-2.017,2.389-3.488 c0.455-1.457,0.365-3.028-0.252-4.327c-0.632-1.271-1.581-2.249-2.709-2.794c-0.788-0.344-1.62-0.493-2.472-0.429C19.071,6.513,18.239,7.666,17.957,8.69 c-0.675,1.087-1.204,2.332-1.499,3.61c-0.3,1.282-0.554,2.645-0.926,3.937C17.957,14.045,17.533,14.758,17.957,15.421z"></path></svg>
+                        <span class="u-screen-reader-text">Instagram</span>
+                    </a>
+                </li>
+            </ul> <!-- end footer-social -->
+        </div> <!-- end column -->
+    </div> <!-- end row -->
+
+    <div class="row">
+        <div class="column lg-12">
+            <div class="s-footer__copyright">
+                <p>&copy; 2024 Mi Agenda Personal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div> <!-- end row -->
+
+</footer> <!-- end s-footer -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
